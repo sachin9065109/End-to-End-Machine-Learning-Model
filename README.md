@@ -71,18 +71,22 @@ streamlit run app.py
 Step 3: Input Features & Get Prediction
 
 9️⃣ Key Learnings & Skills Demonstrated
+
 Complete End-to-End Machine Learning workflow
 Data handling, preprocessing, and feature scaling
 Model training, saving, and reuse
 Web deployment using Streamlit
 Real-time prediction with user-friendly interface
 Professional project structure for GitHub or resume
+
 🔟 Future Improvements
+
 Add more features to improve accuracy
 Implement advanced algorithms (Random Forest, XGBoost)
 Integrate PCA / dimensionality reduction for larger datasets
 Deploy on cloud (Heroku, Streamlit Cloud, or AWS)
 Enhance UI for better user experience
+
 🔗 Conclusion
 
 This project shows the entire pipeline of building a machine learning application, starting from raw data to a live application capable of making real-time predictions.
