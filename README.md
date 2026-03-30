@@ -28,14 +28,10 @@ Trained the model and evaluated performance using accuracy metrics.
 5️⃣ Model Saving
 Saved the trained model using pickle in model.pkl.
 This allows the model to be loaded later without retraining.
-
-
 import pickle
 
 # Saving the trained model
 pickle.dump(model, open("model.pkl", "wb"))
-
-
 6️⃣ Deployment (Web App)
 Built using Streamlit.
 Users can input data (Age, Income) via a clean web interface.
@@ -47,13 +43,9 @@ Age	Income
 28	30000
 
 Output:
-
-
 Loan Prediction = No
 
-
-📂 Project Structure:-
-
+📂 Project Structure
 End-to-End-ML-Project/
 │── data.csv              # Dataset
 │── main.py               # Model training & saving script
@@ -61,37 +53,27 @@ End-to-End-ML-Project/
 │── app.py                # Streamlit web app
 │── requirements.txt      # Required libraries
 └── README.md             # Project documentation
-
-
 🚀 How to Run
 
 Step 1: Train the Model
 
 python main.py
 
-
 Step 2: Launch the Web App
 
 streamlit run app.py
-
-
 🎓 Key Learnings & Skills Demonstrated
 Complete Workflow: Managed the entire ML pipeline.
 Data Engineering: Data handling, preprocessing, and feature scaling.
 Model Persistence: Saving and reusing models using Pickle.
 Deployment: Web app development using Streamlit.
 Professionalism: Creating a structured project for GitHub/Portfolio.
-
 🔮 Future Improvements
 Add more features (e.g., Credit Score, Employment History) to improve accuracy.
 Implement advanced algorithms like Random Forest or XGBoost.
 Deploy on the cloud (Streamlit Cloud, Heroku, or AWS).
 Enhance UI/UX for a more premium user experience.
-
 🔗 Conclusion
 
 This project demonstrates the entire pipeline of building a machine learning application, starting from raw data to a live application capable of making real-time predictions.
-It highlights both technical skills and deployment knowledge, making it ready for a professional showcase
-
-Developed by: [sachin bhagat]
-
+It highlights both technical skills and deployment knowledge, making it ready for a professional showcase.
