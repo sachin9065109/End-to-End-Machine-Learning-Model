@@ -1,4 +1,3 @@
-# End-to-End-Machine-Learning-Model
 # 🚀 End-to-End Machine Learning Project: Loan Prediction App
 
 ## 🌟 Project Overview
